@@ -1,11 +1,99 @@
-body {
-  background-color: black;
+/*Main Title - NavBar Color Change*/
+.navbar-brand {
+  color: rgb(255 255 255 / 90%);
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+#mainNav {
+  background-color: rgb(37, 104, 192);
 }
 
-h1 {
-  font-size: 15px;
+/*Nav Links Color Change*/
+.nav-link {
+  color: white;
+  text-shadow: 0.5px 0.5px 0.5px black;
+  text-align: right;
 }
 
-h2 {
+#desc {
+  text-align: center;
+}
+
+/*Responsive Text On Slide*/
+@media screen and (max-width: 762px) {
+  .d-md-block {
+    display: block !important;
+    font-size: 10px;
+  }
+}
+
+#secondsection {
+  background-color: rgb(73, 73, 73);
+  padding: 5px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
   font-weight: bold;
+}
+
+#thirdsection {
+  font-size: 17px;
+  background-color: rgb(37, 104, 192);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+/*Fix Footer*/
+footer.page-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+.blue {
+  background-color: rgb(73, 73, 73) !important;
+}
+.mt-0,
+.my-0 {
+  margin-top: 0 !important;
+}
+@media (min-width: 768px) {
+  .text-md-left {
+    text-align: left !important;
+  }
+}
+
+footer.page-footer .container-fluid {
+  width: auto;
+}
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+footer.page-footer .footer-copyright {
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  background-color: rgb(37, 104, 192);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+#mainSection {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  font-weight: bold;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+#mainSection img {
+  margin-top: 70px;
 }
