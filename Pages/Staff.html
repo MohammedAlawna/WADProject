@@ -10,175 +10,99 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/Sheets/Sylesheet.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
     <title>Our Staff</title>
   </head>
   <body>
-    <!--
-    ####################################################
-    C A R O U S E L
-    ####################################################
-    -->
-    <div
-      id="carousel"
-      class="carousel slide carousel-fade"
-      data-ride="carousel"
-      data-interval="6000"
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-blue fixed-top"
+      id="mainNav"
     >
-      <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <a>
-            <picture>
-              <source
-                srcset="
-                  https://www.genicsolutions.com/wp-content/uploads/2020/09/blog-banner.jpeg
-                "
-                media="(min-width: 1400px)"
-              />
-              <source
-                srcset="
-                  https://www.genicsolutions.com/wp-content/uploads/2020/09/blog-banner.jpeg
-                "
-                media="(min-width: 769px)"
-              />
-              <source
-                srcset="
-                  https://www.genicsolutions.com/wp-content/uploads/2020/09/blog-banner.jpeg
-                "
-                media="(min-width: 577px)"
-              />
-              <img
-                srcset="
-                  https://www.genicsolutions.com/wp-content/uploads/2020/09/blog-banner.jpeg
-                "
-                alt="responsive image"
-                class="d-block img-fluid"
-              />
-            </picture>
+      <div class="container px-4">
+        <a class="navbar-brand" href="/Pages/Home.html">Delta Soft</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="carousel-caption">
-              <div>
-                <h2>Digital Craftsmanship</h2>
-                <p>We meticously build each site to get results</p>
-                <span class="btn btn-sm btn-outline-secondary">Learn More</span>
-              </div>
-            </div>
-          </a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/Login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/Pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/Staff.html">Staff</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/Contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/About.html">About</a>
+            </li>
+          </ul>
         </div>
-        <!-- /.carousel-item -->
-        <div class="carousel-item">
-          <a href="https://bootstrapcreative.com/">
-            <picture>
-              <source
-                srcset="
-                  https://www.genicsolutions.com/wp-content/uploads/2020/09/blog-banner.jpeg
-                "
-                media="(min-width: 1400px)"
-              />
-              <source
-                srcset="
-                  https://www.genicsolutions.com/wp-content/uploads/2020/09/blog-banner.jpeg
-                "
-                media="(min-width: 1400px)"
-              />
-              <source
-                srcset="
-                  https://www.genicsolutions.com/wp-content/uploads/2020/09/blog-banner.jpeg
-                "
-                media="(min-width: 1400px)"
-              />
-              <img
-                srcset="
-                  https://www.genicsolutions.com/wp-content/uploads/2020/09/blog-banner.jpeg
-                "
-                alt="responsive image"
-                class="d-block img-fluid"
-              />
-            </picture>
-
-            <div
-              class="carousel-caption justify-content-center align-items-center"
-            >
-              <div>
-                <h2>Every project begins with a sketch</h2>
-                <p>
-                  We work as an extension of your business to explore solutions
-                </p>
-                <span class="btn btn-sm btn-outline-secondary"
-                  >Our Process</span
-                >
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- /.carousel-item -->
-        <div class="carousel-item">
-          <a href="https://bootstrapcreative.com/">
-            <picture>
-              <source
-                srcset="
-                  https://www.genicsolutions.com/wp-content/uploads/2020/09/blog-banner.jpeg
-                "
-                media="(min-width: 1400px)"
-              />
-              <source
-                srcset="
-                  https://www.genicsolutions.com/wp-content/uploads/2020/09/blog-banner.jpeg
-                "
-                media="(min-width: 1400px)"
-              />
-              <source
-                srcset="
-                  https://www.genicsolutions.com/wp-content/uploads/2020/09/blog-banner.jpeg
-                "
-                media="(min-width: 1400px)"
-              />
-              <img
-                srcset="
-                  https://www.genicsolutions.com/wp-content/uploads/2020/09/blog-banner.jpeg
-                "
-                alt="responsive image"
-                class="d-block img-fluid"
-              />
-            </picture>
-
-            <div
-              class="carousel-caption justify-content-center align-items-center"
-            >
-              <div>
-                <h2>Performance Optimization</h2>
-                <p>We monitor and optimize your site's long-term performance</p>
-                <span class="btn btn-sm btn-secondary">Learn How</span>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- /.carousel-item -->
       </div>
-      <!-- /.carousel-inner -->
-      <a
-        class="carousel-control-prev"
-        href="#carousel"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#carousel"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+    </nav>
+
+    <h2 id="headingText">Meet our staff!</h2>
+
+    <div id="staffSection" class="container px-4">
+      <div class="row gx-5">
+        <div id="item" class="col">
+          <div class="p-3">
+            <img
+              src="https://www.w3schools.com/howto/img_avatar.png"
+              alt="avatar1"
+              width="150px"
+              height="150px"
+              id="avtr"
+            />
+            <h3>Killua</h3>
+            <p>Owner</p>
+          </div>
+        </div>
+        <div id="item" class="col">
+          <div class="p-3">
+            <img
+              src="https://www.w3schools.com/howto/img_avatar.png"
+              alt="avatar2"
+              width="150px"
+              height="150px"
+              id="avtr"
+            />
+            <h3>Raditz</h3>
+            <p>Admin</p>
+          </div>
+        </div>
+        <div id="item" class="col">
+          <div class="p-3">
+            <img
+              src="https://www.w3schools.com/howto/img_avatar.png"
+              alt="avatar3"
+              width="150px"
+              height="150px"
+              id="avtr"
+            />
+            <h3>Mikel</h3>
+            <p>Supervisor</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- /.carousel -->
   </body>
 </html>
