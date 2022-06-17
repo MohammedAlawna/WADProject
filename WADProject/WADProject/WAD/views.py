@@ -8,3 +8,5 @@ def homepage(request):
 def about(request):
     return HttpResponse('about')
 
+def login(request):
+    return HttpResponse('login');
