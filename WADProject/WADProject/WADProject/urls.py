@@ -6,8 +6,8 @@ from django.contrib import admin
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url('home/', views.homepage),
-    url('about/', views.about),
+    url('home/', views.homepage, name="home"),
+    url('about/', views.about, name="about"),
     #url('login/', views.login),
     url('', include("django.contrib.auth.urls")),
 
