@@ -47,8 +47,13 @@
   <ItemGroup>
     <Content Include="requirements.txt" />
     <Content Include="WAD\static\Stylesheet.css" />
-    <Content Include="WAD\templates\loginOrig.html" />
-    <Content Include="WAD\templates\Registration\login.html" />
+    <Content Include="WAD\templates\about.html" />
+    <Content Include="WAD\templates\contact.html" />
+    <Content Include="WAD\templates\home.html" />
+    <Content Include="WAD\templates\login.html" />
+    <Content Include="WAD\templates\pricing.html" />
+    <Content Include="WAD\templates\Registration\loginTemp.html" />
+    <Content Include="WAD\templates\staff.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="WADProject\" />

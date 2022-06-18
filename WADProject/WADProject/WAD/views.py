@@ -4,14 +4,19 @@ from datetime import datetime
 
 # Create your views here.
 def homepage(request):
-    return HttpResponse('home')
+    return render(request, 'home.html')
 
 def about(request):
-    return HttpResponse('about')
+    return render(request, 'about.html')
 
 def login(request):
-    return HttpResponse('login');
+    return render(request, 'login.html')
 
-def loginMain(request, name):
-    return render(request, 'loginOrig.html', 
-                  {'name': name, 'date': datetime.now()})
+def pricing(request):
+    return render(request, 'pricing.html')
+
+def staff(request):
+    return render(request, 'staff.html')
+
+def contact(request):
+    return render(request, 'contact.html')

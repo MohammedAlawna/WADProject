@@ -5,13 +5,14 @@ from django.urls import path, include
 from django.contrib import admin
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', views.homepage, name="home"),
     path('about/', views.about, name="about"),
-    path('', include("django.contrib.auth.urls")),
-    path('loginMain/<name>', views.loginMain, name="loginMain"),
+    path('login/', views.login, name="login"),
+    path('staff/', views.staff, name="staff"),
+    path('pricing/', views.pricing, name="pricing"),
+    path('contact/', views.contact, name="contact"),
 
 ]
 
