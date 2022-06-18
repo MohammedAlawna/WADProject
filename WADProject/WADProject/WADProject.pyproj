@@ -4,6 +4,7 @@
     <Name>WADProject</Name>
     <RootNamespace>WADProject</RootNamespace>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -45,12 +46,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="WAD\static\Stylesheet.css" />
+    <Content Include="WAD\templates\loginOrig.html" />
     <Content Include="WAD\templates\Registration\login.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="WADProject\" />
     <Folder Include="WAD\" />
     <Folder Include="WAD\migrations\" />
+    <Folder Include="WAD\static\" />
     <Folder Include="WAD\templates\" />
     <Folder Include="WAD\templates\Registration\" />
   </ItemGroup>

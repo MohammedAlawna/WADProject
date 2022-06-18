@@ -1,0 +1,291 @@
+/*Main Title - NavBar Color Change*/
+.navbar-brand {
+    color: rgb(255 255 255 / 90%);
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#mainNav {
+    background-color: rgb(37, 104, 192);
+}
+
+/*Nav Links Color Change*/
+.nav-link {
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    text-align: right;
+}
+
+#desc {
+    text-align: center;
+}
+
+/*Responsive Text On Slide*/
+@media screen and (max-width: 762px) {
+    .d-md-block {
+        display: block !important;
+        font-size: 10px;
+    }
+}
+
+#secondsection {
+    background-color: rgb(73, 73, 73);
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#thirdsection {
+    font-size: 17px;
+    background-color: rgb(37, 104, 192);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+/*Fix Footer*/
+footer.page-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.blue {
+    background-color: rgb(73, 73, 73) !important;
+}
+
+.mt-0,
+.my-0 {
+    margin-top: 0 !important;
+}
+
+@media (min-width: 768px) {
+    .text-md-left {
+        text-align: left !important;
+    }
+}
+
+footer.page-footer .container-fluid {
+    width: auto;
+}
+
+.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    background-color: rgb(37, 104, 192);
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+#mainSection {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-weight: bold;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+    #mainSection img {
+        margin-top: 70px;
+    }
+
+body {
+    background: #eee;
+    margin-top: 20px;
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+#item {
+    box-shadow: 2px 2px 2px 2px #004c82;
+    padding: 20px;
+}
+
+#staffSection {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#headingText {
+    margin-top: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#avtr {
+    border-radius: 50%;
+}
+
+/*Responsive Staff Presentation*/
+@media screen and (max-width: 762px) {
+    #staffSection {
+        width: 70%;
+    }
+}
+
+/*Pricing Table Style*/
+.card {
+    border: none;
+    padding: 10px 50px;
+}
+
+    .card::after {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+        -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .card:hover {
+        transform: scale(1.02, 1.02);
+        -webkit-transform: scale(1.02, 1.02);
+        backface-visibility: hidden;
+        will-change: transform;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.75) !important;
+    }
+
+        .card:hover::after {
+            opacity: 1;
+        }
+
+        .card:hover .btn-outline-primary {
+            color: white;
+            background: #007bff;
+        }
+
+/*LoginForm*/
+/* Importing fonts from Google */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #ecf0f3;
+}
+
+.wrapper {
+    max-width: 350px;
+    min-height: 500px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.logo {
+    width: 80px;
+    margin: auto;
+}
+
+    .logo img {
+        width: 100%;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0px 0px 3px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaa7, -8px -8px 15px #fff;
+    }
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555;
+}
+
+.wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 10px 15px 10px 10px;
+    /* border: 1px solid red; */
+}
+
+.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+    .wrapper .form-field .fas {
+        color: #555;
+    }
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #2568c0;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
+    letter-spacing: 1.3px;
+}
+
+    .wrapper .btn:hover {
+        background-color: #2568c0;
+    }
+
+.wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #2568c0;
+}
+
+    .wrapper a:hover {
+        color: #2568c0;
+    }
+
+@media (max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px;
+    }
+}
