@@ -38,6 +38,9 @@
     <Compile Include="WADProject\wsgi.py" />
     <Compile Include="WAD\admin.py" />
     <Compile Include="WAD\apps.py" />
+    <Compile Include="WAD\forms.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="WAD\migrations\__init__.py" />
     <Compile Include="WAD\models.py" />
     <Compile Include="WAD\tests.py" />
@@ -51,8 +54,10 @@
     <Content Include="WAD\templates\contact.html" />
     <Content Include="WAD\templates\home.html" />
     <Content Include="WAD\templates\login.html" />
+    <Content Include="WAD\templates\OrderSubs.html" />
     <Content Include="WAD\templates\pricing.html" />
     <Content Include="WAD\templates\Registration\loginTemp.html" />
+    <Content Include="WAD\templates\Registration\ShowSubs.html" />
     <Content Include="WAD\templates\staff.html" />
   </ItemGroup>
   <ItemGroup>
