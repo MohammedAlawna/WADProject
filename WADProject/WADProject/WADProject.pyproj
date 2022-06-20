@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="WAD\static\Script.js" />
     <Content Include="WAD\static\Stylesheet.css" />
     <Content Include="WAD\templates\about.html" />
     <Content Include="WAD\templates\contact.html" />
@@ -57,7 +58,7 @@
     <Content Include="WAD\templates\OrderSubs.html" />
     <Content Include="WAD\templates\pricing.html" />
     <Content Include="WAD\templates\Registration\loginTemp.html" />
-    <Content Include="WAD\templates\Registration\ShowSubs.html" />
+    <Content Include="WAD\templates\ShowSubs.html" />
     <Content Include="WAD\templates\staff.html" />
   </ItemGroup>
   <ItemGroup>

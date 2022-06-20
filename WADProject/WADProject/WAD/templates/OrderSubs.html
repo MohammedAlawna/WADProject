@@ -6,7 +6,8 @@
     <title>Add Subscriber</title>
 </head>
 <body>
- <form method="POST" action="/log/">
+   
+ <form method="POST" action={% url 'log' %}>
 {% csrf_token %}
 {{ form.as_p }}
 <button type="submit">Log</button>
