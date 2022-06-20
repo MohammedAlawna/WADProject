@@ -140,6 +140,14 @@ body {
     font-size: 0.9rem;
 }
 
+#addSubscriber {
+    margin-top: 55px;
+}
+
+#plansTable {
+    margin-top: 55px;
+}
+
 #item {
     box-shadow: 2px 2px 2px 2px #004c82;
     padding: 20px;

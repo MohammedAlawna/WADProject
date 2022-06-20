@@ -52,6 +52,7 @@
     <Content Include="WAD\static\Script.js" />
     <Content Include="WAD\static\Stylesheet.css" />
     <Content Include="WAD\templates\about.html" />
+    <Content Include="WAD\templates\ajaxinfo.txt" />
     <Content Include="WAD\templates\contact.html" />
     <Content Include="WAD\templates\home.html" />
     <Content Include="WAD\templates\login.html" />

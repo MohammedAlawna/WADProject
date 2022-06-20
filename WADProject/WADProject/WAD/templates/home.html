@@ -12,6 +12,7 @@
     />
    {% load static %}
     <link rel="stylesheet" href="{% static 'Stylesheet.css' %}"/>
+    <script src="{% static 'Script.js' %}"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
@@ -163,6 +164,17 @@
         Watch Live Stream Football Matches With High Quality and Stable Servers,
         With BEST PRICES!
       </p>
+        <p>Please Wear Face Masks and Protect YourSelf From Covid!</p>
+        <br />
+        <button class="btn btn-warning" id="getInfoBtn" onclick="getCovidInfo()">
+            Get Covid Info
+        </button>
+        <div id="covidInfo" style="display:none;">
+            <div id="deathCases"></div>
+            <div id="covidCases"></div>
+            <p>Dony by AJAX!</p>
+        </div>
+       <br />
       <img
         src="https://cdn2.iconfinder.com/data/icons/football-26/256/football-soccer-tv-stream-live-monitor-512.png"
         alt="watchFootball"
