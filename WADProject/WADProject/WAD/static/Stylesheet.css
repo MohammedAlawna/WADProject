@@ -34,7 +34,7 @@
 }
 
 #secondsection {
-    background-color: rgb(73, 73, 73);
+    background-color: #231D3B;
     padding: 5px;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -98,7 +98,7 @@ footer.page-footer .footer-copyright {
 }
 
 #mainSection {
-    background-color: rgb(32, 32, 32);
+    background-color: #231D3B;
     color: white;
     font-weight: bold;
     padding-bottom: 5px;
@@ -111,6 +111,11 @@ footer.page-footer .footer-copyright {
 
 #pr_table {
     margin-top: -80px;
+}
+
+#slideImg {
+    height: 410px;
+    /* width: 250px; */
 }
 
 body {
