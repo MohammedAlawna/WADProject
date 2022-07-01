@@ -26,7 +26,9 @@ the platform. However, you can easily change that from the code and allow only a
 - The used APi in this application fetches Covid information and displays it to the user as informative to take care of his health and commit to the Covid-restrictions.
 LINK: https://covidtrackerapi.bsg.ox.ac.uk/
 - You can refer to other covid-tracking APIs:
+
 https://www.mulesoft.com/exchange/68ef9520-24e9-4cf2-b2f5-620025690913/covid19-data-tracking-api/
+
 https://developer.api.nhs.uk/coronavirus/api
 
 # How-To-Run
